@@ -14,7 +14,7 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2047783f5af59d446a0e9b3b6d998601, type: 3}
+        m_Texture: {fileID: 2800000, guid: 908f2ccb3a3ce5949ad4592dcfb8d3b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineWidthTexture:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadeTexture:
-        m_Texture: {fileID: 2800000, guid: 2047783f5af59d446a0e9b3b6d998601, type: 3}
+        m_Texture: {fileID: 2800000, guid: 908f2ccb3a3ce5949ad4592dcfb8d3b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadingGradeTexture:
@@ -88,8 +88,8 @@ Material:
     - _UvAnimScrollY: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.4431373, g: 0.16078432, b: 0.16078432, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 0.27450982, g: 0.09019608, b: 0.1254902, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.4039216, g: 0.20000002, b: 0.121568635, a: 1}
+    - _ShadeColor: {r: 1, g: 1, b: 1, a: 1}
